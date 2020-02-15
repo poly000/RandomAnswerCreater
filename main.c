@@ -13,7 +13,6 @@ int main(void) {
   }
   for (register int i=1; i<=q; i++) {
     printf("%d.: %c\n",i,'A'+rand()%o);
-    srand(rand());
   }
   getchar(),getchar();
   return 0;
